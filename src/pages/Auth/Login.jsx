@@ -15,6 +15,7 @@ export default function Login() {
     if (user) {
       navigate("/workspaces");
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [user]);
 
   const handleLogin = async (event) => {

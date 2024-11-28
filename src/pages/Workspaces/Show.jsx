@@ -35,6 +35,7 @@ export default function Show() {
       }
     };
     fetchData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const uploadFiles = () => {
